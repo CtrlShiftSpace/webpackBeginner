@@ -10,5 +10,9 @@ module.exports = {
     // 編譯檔案名稱
     path: path.resolve(__dirname, 'dist')
     // 編譯檔案的位置
-  }
+  },
+  mode: 'development',
+  devServer: {
+    static: './',
+  },
 };
