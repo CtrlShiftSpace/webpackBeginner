@@ -9,7 +9,8 @@
   "scripts": {
     "watch": "webpack --mode=development --watch",
     "dev": "webpack --mode=development",
-    "build": "webpack --mode=production"
+    "build": "webpack --mode=production",
+    "serve" : "webpack-dev-server --mode=development"
   },
   "dependencies": {
     "@babylonjs/gui": "^6.8.0"
